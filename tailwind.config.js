@@ -5,11 +5,12 @@ module.exports = {
     screens: {
       xxxsm:'300px',
       xxsm:'360px',
-      xsm:'480px',
-      sm: '640px',
-      md: '768px',
-      lg: '935px',
-      xl: '1280px',
+      xsm:'420px',
+      lxm:'535px',
+      sm: '605px',
+      md: '836px',
+      lg: '1024px',
+      xl: '1120px',
       '2xl': '1536px',
     },
     extend: {
