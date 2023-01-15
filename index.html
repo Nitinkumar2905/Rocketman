@@ -14,26 +14,29 @@
         <header class="flex flex-col justify-center  xsm:flex-row w-full mx-auto items-center">
             <nav class=" flex flex-row justify-center sm:w-1/2 align-top w-screen xsm:w-auto md:w-1/3 mx-auto my-4">
                 <div class="flex flex-col items-center justify-center mx-auto ml-6 xsm:ml-0 sm:ml-8 my-2">
-                    <img class="w-[7.5rem] xsm:w-[7.75rem] lxm:w-[10rem] sm:w-[12rem] md:w-[14rem]" src="./logo.png" alt="">
+                    <img class="w-[7.5rem] xsm:w-[7.75rem] lxm:w-[10rem] sm:w-[12rem] md:w-[14rem]" src="./images/logo.png" alt="">
                 </div>
-                <span class="hamburger  flex flex-col items-center mr-6 my-4 xsm:hidden hover:text-purple-600">
-                    <i class="fa text-xl font-extrabold ">&#xf107;</i>
+                <span class="hamburger-down  flex flex-col items-center mr-6 my-4 xsm:hidden hover:text-purple-600">
+                    <img src="https://img.icons8.com/material-outlined/24/null/menu--v1.png"/>
+                </span>
+                <span class="hamburger-up  hidden hover:flex flex-col items-center mr-6 my-4 hover:text-purple-600">
+                    <img src="https://img.icons8.com/material-outlined/24/null/menu--v1.png"/>
                 </span>
             </nav>
 
-            <div class=" navicon hidden xsm:flex flex-col  sm:w-1/2 items-center mx-auto mb-4 xsm:my-4 sm:mr-6 lg:w-1/2">
+            <div class=" navbar hidden xsm:flex flex-col  sm:w-1/2 items-center mx-auto mb-4 xsm:my-4 sm:mr-6 lg:w-1/2">
                 <ul class="flex mx-auto w-full justify-center">
                     <li class="flex flex-row mx-auto w-full justify-center text-center space-x-5 ">
-                        <a class="text-base mx-2 sm:text-[1rem] sm:font-medium md:text-xl md:px-1 lg:px-3 xl:px-5 font-sans hover:underline  hover:text-purple-500" href="https://rocketman.learnwagtail.com/services/">Services</a>
-                        <a class="text-base mx-2 sm:text-[1rem] sm:font-medium md:text-xl md:px-1 lg:px-3 xl:px-5 font-sans hover:underline  hover:text-purple-500" href="https://rocketman.learnwagtail.com/contact/">Contact</a>
-                        <a class="text-base mx-2 sm:text-[1rem] sm:font-medium md:text-xl md:px-1 lg:px-3 xl:px-5  font-sans hover:underline  hover:text-purple-500" href="https://learnwagtail.com/wagtail-for-beginners/">Wagtail Course</a>
+                        <a class="text-base font-semibold mx-2 sm:text-[1rem] sm:font-medium md:text-xl md:px-1 lg:px-3 xl:px-5 font-sans hover:underline  hover:text-purple-500" href="https://rocketman.learnwagtail.com/services/">Services</a>
+                        <a class="text-base font-semibold mx-2 sm:text-[1rem] sm:font-medium md:text-xl md:px-1 lg:px-3 xl:px-5 font-sans hover:underline  hover:text-purple-500" href="https://rocketman.learnwagtail.com/contact/">Contact</a>
+                        <a class="text-base font-semibold mx-2 sm:text-[1rem] sm:font-medium md:text-xl md:px-1 lg:px-3 xl:px-5 font-sans hover:underline  hover:text-purple-500" href="https://learnwagtail.com/wagtail-for-beginners/">Wagtail Course</a>
                     </li>
                 </ul>
             </div>
         </header>
 
         <!-- HERO SECTION -->
-        <div class="w-full h-full  bg-center bg-no-repeat bg-cover bg-[url('./herobg.jpg')] relative">
+        <div class="w-full h-full  bg-center bg-no-repeat bg-cover bg-[url('./images/herobg.jpg')] relative">
             <div class=" flex flex-col items-start lg:items-start justify-center my-20 mx-4 md:mx-14  lg:mx-20">
                 <div class="flex flex-col items-start md:w-1/2 justify-center z-50">
                     <h1 class="text-5xl font-sans text-white z-50">Supreme Rocket Maintenance</h1>
@@ -53,7 +56,7 @@
         <section class="flex flex-col  lg:flex-row sm: mx-auto mb-3 ">
             <!-- SERVICES SECTION -->
             <div class="flex flex-col h-full items-center mx-4 xl:mx-1  my-3 border-[1px] border-black">
-                <img class="lxm:w-[480px] sm:w-[35rem] lg:w-[28rem] xl:w-[35rem]" src="./rocketoy.jpg" alt="">
+                <img class="lxm:w-[480px] sm:w-[35rem] lg:w-[28rem] xl:w-[35rem]" src="./images/rocketoy.jpg" alt="">
                 <div class="lxm:w-[480px] sm:w-[35rem] lg:w-[28rem] xl:w-[35rem] flex flex-col items-center px-4 my-4">
                     <h1 class="text-base font-bold my-2">It's not a toy</h1>
                     <p class="text-base font-sans text-center my-2">Or may be you're Jeff Bezos... and rocket are your toys!</p>
@@ -63,7 +66,7 @@
 
             <!-- CONTACT SECTION -->
             <div class="flex flex-col items-center h-full mx-4 xl:mx-1 my-3 border-[1px] border-black">
-                <img class="lxm:w-[480px] sm:w-[35rem] lg:w-[28rem] xl:w-[35rem]" src="./launch.jpg" alt="">
+                <img class="lxm:w-[480px] sm:w-[35rem] lg:w-[28rem] xl:w-[35rem]" src="./images/launch.jpg" alt="">
                 <div class="lxm:w-[480px] sm:w-[35rem] lg:w-[28rem] xl:w-[35rem] flex flex-col items-center px-4 my-4">
                     <h1 class="font-bold text-base my-2">Rockets are cool!</h1>
                     <p class="text-base font-sans text-center my-2">Especially when you see photos like this one</p>
@@ -76,7 +79,7 @@
         <section class="flex flex-col w-full lg:w-[58.5rem] xl:w-[70rem] items-center lg:mx-4  my-3 lg:my-7 lg:px-20 xl:px-10  space-y-6 xsm:space-y-6 lg:space-y-32">
             <!-- PROGRAMMING SECTION -->
             <div class=" flex flex-col lg:w-[58.5rem] xl:w-[70rem] items-center lg:items-start lg:px-5 xl:px-0  h-full mx-4 lg:mx-0 my-4 lg:relative">
-                <img  class="sm:w-[35rem] lxm:w-[480px] lg:w-[40rem] lg:h-[25rem]" src="./spacex1.jpg" alt="">
+                <img  class="sm:w-[35rem] lxm:w-[480px] lg:w-[40rem] lg:h-[25rem]" src="./images/spacex1.jpg" alt="">
                 <div class=" sm:w-[35rem] lxm:w-[480px] lg:w-[25rem] lg:h-56 flex flex-col items-start px-8 py-6 bg-gray-800 lg:absolute lg:-bottom-[5rem] lg:right-4 xl:right-52">
                     <h1 class="text-white font-sans text-4xl lg:text-3xl lg:font-bold my-2">Self Landing Rocket</h1>
                     <p class="text-white font-sans my-2 lg:text-lg">Probably the coolest thing ever!!. We can program this for you</p>
@@ -89,7 +92,7 @@
 
             <!-- CLEANING SECTION -->
             <div class="flex flex-col  lg:w-[58.5rem] xl:w-[70rem] h-full items-center lg:items-end lg:px-5 xl:px-0 mx-4 lg:mx-0 my-6 lg:relative">
-                <img  class="sm:w-[35rem] lxm:w-[480px] lg:w-[40rem] lg:h-[25rem] sm:" src="./spacex2.jpg" alt="">
+                <img  class="sm:w-[35rem] lxm:w-[480px] lg:w-[40rem] lg:h-[25rem] sm:" src="./images/spacex2.jpg" alt="">
                 <div class=" sm:w-[35rem] lxm:w-[480px] lg:w-[25rem] lg:h-56 flex flex-col items-start px-8 py-6 bg-gray-800 lg:absolute lg:-bottom-[5rem] lg:left-4 xl:left-52">
                     <h1 class="text-white font-sans text-4xl lg:text-3xl lg:font-bold my-2">We'll clean your rocket</h1>
                     <p class="text-white font-sans my-2 lg:text-lg">This image has nothing to do with cleaning. But it's kind of neat still.</p>
@@ -102,7 +105,7 @@
             
             <!-- FUELLING SECTION -->
             <div class=" flex flex-col lg:w-[58.5rem]  xl:w-[70rem] lg:px-5 xl:px-0 h-full items-center lg:items-start mx-4 lg:mx-0 my-4 xsm:mt-6 lg:relative">
-                <img  class="sm:w-[35rem] lxm:w-[480px] lg:w-[40rem] lg:h-[25rem] " src="./herobg.jpg" alt="">
+                <img  class="sm:w-[35rem] lxm:w-[480px] lg:w-[40rem] lg:h-[25rem] " src="./images/herobg.jpg" alt="">
                 <div class=" sm:w-[35rem] lxm:w-[480px] lg:w-[25rem] lg:h-[19rem] flex flex-col items-start px-8  py-6 bg-gray-800 lg:absolute lg:-bottom-[5rem] lg:right-4 xl:right-52">
                     <h1 class="text-white font-sans text-4xl lg:text-2xl lg:font-bold my-2">Rockets are gas guzzlers</h1>
                     <p class="text-white font-sans my-2 lg:text-lg">If you think gas is expensive now.. think about rocket prices! Luckily, we water our gas down to give you more bang for your buck.</p>
@@ -137,7 +140,7 @@
                   <span class="text-center md:text-start text-white font-sans text-lg md:text-xl">We'll treat your rocket as if it's our own. Our standards are higher than the ISS's altitude. We also enjoy test driving your rocket before giving it back 😱</span>
               </div>
               <span class=" box-border hover:delay-150 font-semibold cursor-pointer my-8 md:mt-2 px-7 py-2 rounded-md bg-white hover:bg-purple-200 text-black md:text-lg lg:text-xl"><a href="https://rocketman.learnwagtail.com/contact/">CONTACT US</a></span>
-              <!-- <button class=" box-border hover:delay-150 font-semibold cursor-pointer my-8 md:mt-2 px-7 py-2 rounded-md bg-white hover:bg-purple-200 text-black md:text-lg lg:text-xl">CONTACT US</button> -->
+              
         </section>
 
 
@@ -182,8 +185,8 @@
 
                 <div class="flex flex-col items-center sm:items-start my-4">
                     <div class="flex flex-row justify-center space-x-4">
-                        <span><img class="bg-white cursor-pointer" src="./icons8-twitter-24.png" alt=""></span>
-                        <span><img class="bg-white cursor-pointer" src="./icons8-youtube-24.png" alt=""></span>
+                        <span><img class="bg-white cursor-pointer" src="./images/icons8-twitter-24.png" alt=""></span>
+                        <span><img class="bg-white cursor-pointer" src="./images/icons8-youtube-24.png" alt=""></span>
                     </div>
 
                     <span class="font-sans text-gray-500 sm:text-xl ">&copy; 2022 Rocketboy</span>
@@ -191,5 +194,8 @@
             </div>
         </footer>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
